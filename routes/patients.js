@@ -1,8 +1,8 @@
 var express = require('express');
 var router = express.Router();
-const usersController = require('../controllers/usersController');
+const patientsController = require('../controllers/patientsController');
 
 /* GET users listing. */
-router.get('/', usersController.get_patient);
+router.get('/', patientsController.get_patient);
 
 module.exports = router;
